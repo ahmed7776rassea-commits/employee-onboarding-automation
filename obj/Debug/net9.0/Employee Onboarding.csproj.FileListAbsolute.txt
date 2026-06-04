@@ -1,0 +1,14 @@
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\bin\Debug\net9.0\Employee Onboarding.exe
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\bin\Debug\net9.0\Employee Onboarding.deps.json
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\bin\Debug\net9.0\Employee Onboarding.runtimeconfig.json
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\bin\Debug\net9.0\Employee Onboarding.dll
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\bin\Debug\net9.0\Employee Onboarding.pdb
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.AssemblyInfoInputs.cache
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.AssemblyInfo.cs
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.csproj.CoreCompileInputs.cache
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.dll
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\refint\Employee Onboarding.dll
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.pdb
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\Employee Onboarding.genruntimeconfig.cache
+C:\Users\foada\Desktop\lebenslauf\Projekt\Employee Onboarding\obj\Debug\net9.0\ref\Employee Onboarding.dll
