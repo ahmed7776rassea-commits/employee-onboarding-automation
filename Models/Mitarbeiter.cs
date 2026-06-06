@@ -8,4 +8,7 @@ public class Mitarbeiter
     public string Abteilung {get;set;}
     public string Email{get;set;}
 
+    public string Benutzername { get; set; }
+    public string Passwort { get; set; }
+
 }
