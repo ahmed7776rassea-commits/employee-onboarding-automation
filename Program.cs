@@ -20,6 +20,7 @@ if (File.Exists(dateiPfad))
         mitarbeiter.Nachname = teile[2];
         mitarbeiter.Abteilung = teile[3];
         mitarbeiter.Email = teile[4];
+        mitarbeiter.Benutzername =teile[1][0].ToString().ToLower()+teile[2].ToLower();
         mitarbeiterListe.Add(mitarbeiter);
 
         Console.WriteLine($"{mitarbeiter.MitarbeiterID} - {mitarbeiter.Vorname} {mitarbeiter.Nachname} - {mitarbeiter.Abteilung}");
