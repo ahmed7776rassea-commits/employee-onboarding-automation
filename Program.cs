@@ -8,6 +8,12 @@ List<Mitarbeiter> mitarbeiterListe = new List<Mitarbeiter>();
 if (File.Exists(dateiPfad))
 {
     string[] zeilen = File.ReadAllLines(dateiPfad);
+    Random random = new Random();
+
+    string zeichen =
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
+        "abcdefghijklmnopqrstuvwxyz" +
+        "0123456789";
 
     foreach (string zeile in zeilen.Skip(1))
     {
@@ -21,9 +27,20 @@ if (File.Exists(dateiPfad))
         mitarbeiter.Abteilung = teile[3];
         mitarbeiter.Email = teile[4];
         mitarbeiter.Benutzername =teile[1][0].ToString().ToLower()+teile[2].ToLower();
+        string passwort = "";
+
+        for (int i = 0; i < 8; i++)
+        {
+        int index = random.Next(0, zeichen.Length);
+        passwort += zeichen[index];
+        }
+
+        mitarbeiter.Passwort = passwort;
         mitarbeiterListe.Add(mitarbeiter);
 
         Console.WriteLine($"{mitarbeiter.MitarbeiterID} - {mitarbeiter.Vorname} {mitarbeiter.Nachname} - {mitarbeiter.Abteilung}");
+        Console.WriteLine($"Benutzername: {mitarbeiter.Benutzername}");
+        Console.WriteLine($"Passwort: {mitarbeiter.Passwort}");
     }
 }
 else
